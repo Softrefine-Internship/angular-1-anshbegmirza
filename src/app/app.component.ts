@@ -22,7 +22,6 @@ export class AppComponent {
 
   updateUser() {
     this.showFields = !this.showFields;
-
-    alert(`You have updated user.`);
+    // alert(`You have updated user.`);
   }
 }

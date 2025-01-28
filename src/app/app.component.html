@@ -5,12 +5,12 @@
   <div class="card">
     <img src="https://randomuser.me/api/portraits/men/10.jpg" class="img-responsive card-img" alt="{{user.name}}">
 
+
     <div class="user-details">
       <label for="name" class="text-fields">Name:</label>
       <p class="text-fields">{{user.name}}</p>
     </div>
     <input type="text" class="form-control" *ngIf="showFields" [(ngModel)]="user.name">
-
     <div class="user-details">
       <label for="name" class="text-fields">Email:</label>
       <p class="text-fields">{{user.email}}</p>
